@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lesze.myapplication.OptionsSecondActivity">
+
+    <TextView
+        android:id="@+id/rozmiar_czcionki_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rozmiar_czcionki"
+        android:textSize="25sp"
+
+        />
+
+        <Button
+            android:layout_below="@+id/rozmiar_czcionki_text"
+            android:id="@+id/red_button"
+            android:text="@string/red"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:layout_below="@+id/rozmiar_czcionki_text"
+            android:id="@+id/blue_button"
+            android:layout_toRightOf="@+id/red_button"
+            android:text="@string/blue"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:layout_below="@+id/rozmiar_czcionki_text"
+            android:id="@+id/green_button"
+            android:layout_toRightOf="@+id/blue_button"
+            android:text="@string/green"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            tools:ignore="ButtonStyle" />
+
+    <TextView
+        android:id="@+id/kolor_czcionki_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/red_button"
+        android:text="@string/kolor_czcionki"
+        android:textSize="25sp" />
+
+        <Button
+        android:layout_below="@+id/kolor_czcionki_text"
+        android:id="@+id/small_button"
+        android:text="@string/small"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        tools:ignore="ButtonStyle" />
+
+        <Button
+            android:layout_below="@+id/kolor_czcionki_text"
+            android:id="@+id/medium_button"
+            android:text="@string/medium"
+            android:layout_toRightOf="@+id/small_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            tools:ignore="ButtonStyle" />
+        <Button
+            android:layout_below="@+id/kolor_czcionki_text"
+            android:id="@+id/big_button"
+            android:text="@string/large"
+            android:layout_toRightOf="@+id/medium_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            tools:ignore="ButtonStyle" />
+
+    <TextView
+        android:id="@+id/change_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instruction"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:textSize="20sp"
+        android:enabled="true"
+        />
+
+    <Button
+        android:id="@+id/save_button"
+        android:text="@string/show_instructions"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>

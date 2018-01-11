@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Shopping app</string>
+    <string name="action_settings" />
+    <string name="podaj_rozmiar">set size</string>
+    <string name="podaj_kolor">set color</string>
+    <string name="kolor_czcionki">Font color</string>
+    <string name="rozmiar_czcionki">Font size</string>
+    <string name="list_of_products">List of products</string>
+    <string name="configuration">Configuration</string>
+    <string name="data">Data</string>
+    <string name="change_that_color">change that color</string>
+    <string name="add_to_list">add to list</string>
+    <string name="remove_from_list">remove from list</string>
+    <string name="product_name">product name</string>
+    <string name="product_price">product price</string>
+    <string name="product_quantity">product quantity</string>
+    <string name="instruction">In ListView: when you click on product item you can edit it. On long click the product item you can delete it</string>
+    <string name="red">red</string>
+    <string name="blue">blue</string>
+    <string name="green">green</string>
+    <string name="small">small</string>
+    <string name="medium">medium</string>
+    <string name="large">large</string>
+    <string name="save">save</string>
+    <string name="add_first_product">add first product</string>
+    <string name="show_instructions">Show instructions</string>
+
+</resources>
