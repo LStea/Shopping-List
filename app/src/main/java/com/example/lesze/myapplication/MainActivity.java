@@ -6,13 +6,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.lesze.myapplication.database.DatabaseActivity;
 import com.example.lesze.myapplication.database.MySqliteDatabase;
 
 public class MainActivity extends AppCompatActivity {
 
     Button listaZakupow;
     Button opcje;
-    Button dane;
+    Button sql;
+    Button firebase;
     MySqliteDatabase myDB;
 
     @Override
@@ -20,10 +22,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        listaZakupow = (Button) findViewById(R.id.lista_produktow);
-        opcje = (Button) findViewById(R.id.opcje);
-
-        dane = (Button) findViewById(R.id.database_helper);
+        listaZakupow = findViewById(R.id.lista_produktow);
+        opcje = findViewById(R.id.opcje);
+        sql = findViewById(R.id.database_helper);
+//        firebase = findViewById(R.id.firebase_database);
 
         listaZakupow.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        dane.setOnClickListener(new View.OnClickListener() {
+        sql.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 

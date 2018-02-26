@@ -17,10 +17,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".ProductListActivity" />
-        <activity android:name=".DatabaseActivity" />
-        <activity android:name=".RecyclerViewActivity" />
+        <activity android:name=".database.DatabaseActivity" />
+        <activity android:name=".database.RecyclerViewActivity" />
         <activity android:name=".DetailsActivity" />
         <activity android:name=".OptionsSecondActivity" />
+
+
     </application>
 
 </manifest>

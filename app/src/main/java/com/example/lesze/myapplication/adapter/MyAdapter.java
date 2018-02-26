@@ -64,7 +64,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         public TextView productPrice;
         public TextView productQuantity;
 
-
         public int id;
 
 
@@ -83,6 +82,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
                     int position = getAdapterPosition();
                     Shop shop = productItems.get(position);
                     editItem(shop);
+
 
 
 //                    Intent intent = new Intent(context, DetailsActivity.class);
@@ -166,7 +166,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
                 public void onClick(View view) {
                     MySqliteDatabase db = new MySqliteDatabase(context);
 
-                    Shop shop = null;
+//                    Shop shop = null;
+//                    db.deleteProduct(shop);
                     shop.setNazwa(productName.getText().toString());
                     shop.setCena(Double.parseDouble(productPrice.getText().toString()));
                     shop.setIlosc(Double.parseDouble(productQuantity.getText().toString()));

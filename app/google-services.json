@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "397386180097",
+    "firebase_url": "https://myapplication-f1251.firebaseio.com",
+    "project_id": "myapplication-f1251",
+    "storage_bucket": "myapplication-f1251.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397386180097:android:aa0305ec320dad93",
+        "android_client_info": {
+          "package_name": "com.example.lesze.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397386180097-skvolv8bhtr051j72icteftlikd846k0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lesze.myapplication",
+            "certificate_hash": "ba0e53774bbcec1ac351a15e62dd551514e25904"
+          }
+        },
+        {
+          "client_id": "397386180097-s5c22e2tjrrunnsn11u9t7bpf45ruvc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ-uYnf1iAzl-C5UOpJYO_-9HfFUmVAKY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397386180097-s5c22e2tjrrunnsn11u9t7bpf45ruvc9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

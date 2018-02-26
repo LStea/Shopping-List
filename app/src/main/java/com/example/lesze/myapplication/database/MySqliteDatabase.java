@@ -118,7 +118,7 @@ public class MySqliteDatabase extends SQLiteOpenHelper {
         return shoppingList;
     }
 
-    public int updateProduct(Shop shop) {
+    public void updateProduct(Shop shop) {
 
         db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
@@ -126,8 +126,10 @@ public class MySqliteDatabase extends SQLiteOpenHelper {
         values.put(KEY_PRICE, shop.getCena());
         values.put(KEY_QUANTITY, shop.getIlosc());
 
-        return db.update(TABLE_NAME, values, KEY_ID + "=?",
+        db.update(TABLE_NAME, values, KEY_ID + "=?",
                 new String[]{String.valueOf(shop.getId())});
+
+
 
     }
 
